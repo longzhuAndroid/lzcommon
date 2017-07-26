@@ -1,0 +1,238 @@
+allprojects {
+    repositories {
+        jcenter()
+    }
+}
+
+ext {
+    //Libraries
+    andjumpVersion = '0.1'
+    eventbusVersion = '3.0.0'
+    daggerVersion = '2.0.2'
+    butterKnifeVersion = '7.0.1'
+    rxJavaVersion = '1.1.2'
+    rxAndroidVersion = '1.1.0'
+    rxBindingVersion = '0.4.0'
+    javaxAnnotationVersion = '1.0'
+    recyclerViewVersion = '23.2.1'
+    recyclerAnimatorsVersion = '2.2.1'
+    retrofit2Version = '2.3.0'
+    retrofitGsonVersion = '2.3.0'
+    retrofitAdapterVersion = '2.3.0'
+    okHttpVersion = '3.4.1'
+    okHttpIoVersion = '1.9.0'
+    reservoirVersion = '2.1'
+    glideVersion = '3.7.0'
+    circleImageViewVersion = '2.0.0'
+    fresco = '1.2.0'
+    websocketVersion = '1.28';
+    convenientbannerVersion = '2.0.5'
+    danmakuVersion = '0.7.1'
+    jacksonVersion = '2.2.3'
+    jsrVersion = '3.0.0'
+    reactAppCompat = '23.0.1'
+    rxcameraVersion = "0.0.5"
+    autolayoutVersion = "1.4.5"//布局适配的方案:=>
+    soLoaderVersion = "0.1.0"
+    frescoOkhttp3Version = "1.2.0"
+    textLayoutVersion = "1.0.0"
+    reactRecycleViewVersion = "23.4.0"
+    reactFresco = "1.2.0"
+    findBugsVersion = "3.0.0"
+    javaxInject = "1"
+
+    //Testing
+    robolectricVersion = '3.0'
+    jUnitVersion = '4.12'
+    assertJVersion = '1.7.1'
+    mockitoVersion = '1.9.5'
+    dexmakerVersion = '1.0'
+    espressoVersion = '2.0'
+    testingSupportLibVersion = '0.1'
+    leakcanaryVersion = '1.4-beta2'
+    blockCanaryExVersion = '0.9.4'
+    //    debugCompile 'com.squareup.leakcanary:leakcanary-android:1.4-beta2'
+    //    releaseCompile 'com.squareup.leakcanary:leakcanary-android-no-op:1.4-beta2'
+    //    previewCompile 'com.squareup.leakcanary:leakcanary-android:1.4-beta2'
+    /**
+     * leakcanary-analyzer : 如果检测到内存泄露，就dump出hprof分析，这个库主要用于分析hprof。 代码利用了MAT
+     leakcanary-android-no-op : 空实现，为了方便在release时调用
+     leakcanary-android : debug时调用，组织监听、分析、展示结果等逻辑。
+     leakcanary-sample : 官方调用示例
+     leakcanary-watcher : 引用监听
+     */
+    //Development
+    leakCanaryVersion = '1.3.1'
+    ////////////////////////////////////////////////////////////
+    //google support library
+    ////////////////////////////////////////////////////////////
+    googleSupportLibsVersion = '25.3.1'
+    cardviewVersion = googleSupportLibsVersion
+    designVersion = googleSupportLibsVersion
+    appcompatVersion = googleSupportLibsVersion
+    appcompat = googleSupportLibsVersion
+    support = googleSupportLibsVersion
+    androidAnnotationsVersion = googleSupportLibsVersion
+    multidexVersion = '1.0.1'
+
+    guavaVersion = '20.0'
+    gsonVersion = '2.4'
+    //end//////////////////////////////////////////////////////////
+
+    rxlifecycle = "0.6.1"
+    websocketVersion = '1.28'
+    selectableroundedimageview = '1.0.1'
+    CircularRevealVersion = '1.3.1@aar'
+    customTabsVersion = '24.0.0'
+    reactNativeVersion = '0.31.0'
+    msgpackVersion = '0.6.12'
+    qiniuReportVersion = '0.8.16'
+    blurkitVersion = '1.0.0'
+
+
+    hotfixVersion = '1.3.3'
+    developmentDependencies = [
+            andjumpApi                : "com.qt:andjump-api:${andjumpVersion}",
+            andjumpCompiler           : "com.qt:andjump-compiler:${andjumpVersion}",
+            eventbus                  : "org.greenrobot:eventbus:${eventbusVersion}",
+            eventBusCompiler          : "org.greenrobot:eventbus-annotation-processor:${eventbusVersion}",
+            eventBusIndex             : "com.study.sangerzhong.studyapp.MyEventBusIndex",
+            convenientbanner          : "com.bigkoo:convenientbanner:${convenientbannerVersion}",
+            daggerCompiler            : "com.google.dagger:dagger-compiler:${daggerVersion}",
+            dagger                    : "com.google.dagger:dagger:${daggerVersion}",
+            butterKnife               : "com.jakewharton:butterknife:${butterKnifeVersion}",
+            rxJava                    : "io.reactivex:rxjava:${rxJavaVersion}",
+            rxAndroid                 : "io.reactivex:rxandroid:${rxAndroidVersion}",
+            rxBinding                 : "com.jakewharton.rxbinding:rxbinding:${rxBindingVersion}",
+            rxBindingV7               : "com.jakewharton.rxbinding:rxbinding-appcompat-v7:${rxBindingVersion}",
+            rxBindingRecycler         : "com.jakewharton.rxbinding:rxbinding-recyclerview-v7:${rxBindingVersion}",
+            rxBindingDesign           : "com.jakewharton.rxbinding:rxbinding-design:${rxBindingVersion}",
+            javaxAnnotation           : "javax.annotation:jsr250-api:${javaxAnnotationVersion}",
+            cardview                  : "com.android.support:cardview-v7:${cardviewVersion}",
+            design                    : "com.android.support:design:${designVersion}",
+            appcompat                 : "com.android.support:appcompat-v7:${appcompatVersion}",
+            recyclerAnimation         : "jp.wasabeef:recyclerview-animators:${recyclerAnimatorsVersion}",
+            glide                     : "com.github.bumptech.glide:glide:${glideVersion}",
+            circleImageView           : "de.hdodenhof:circleimageview:${circleImageViewVersion}",
+            rxlifecycle               : "com.trello:rxlifecycle:${rxlifecycle}",
+            websocket                 : "com.neovisionaries:nv-websocket-client:${websocketVersion}",
+            multidex                  : "com.android.support:multidex:${multidexVersion}",
+            selectableroundedimageview: "com.joooonho:selectableroundedimageview:${selectableroundedimageview}",
+            CircularReveal            : "com.github.ozodrukh:CircularReveal:${CircularRevealVersion}",
+            customTabs                : "com.android.support:customtabs:${customTabsVersion}",
+            reactNative               : "com.facebook.react:react-native:${reactNativeVersion}",
+            danmaku                   : "com.github.ctiao:DanmakuFlameMaster:${danmakuVersion}",
+            danmaku_armv7a            : "com.github.ctiao:ndkbitmap-armv7a:${danmakuVersion}",
+            danmaku_armv5             : "com.github.ctiao:ndkbitmap-armv5:${danmakuVersion}",
+            danmaku_x86               : "com.github.ctiao:ndkbitmap-x86:${danmakuVersion}",
+            blurkit                   : "com.wonderkiln:blurkit:${blurkitVersion}",
+            rxcamera                  : "com.ragnarok.rxcamera:lib:${rxcameraVersion}",
+            support                   : "com.android.support:support-v4:${support}",
+            autolayout                : "com.zhy:autolayout:${autolayoutVersion}",
+            guava                     : "com.google.guava:guava:${guavaVersion}",
+            hotfix                    : "com.alibaba.sdk.android.plugins:alisdk-hotfix:${hotfixVersion}"
+    ]
+
+    developmentTestDependencies = [
+            mockito             : "org.mockito:mockito-core:${mockitoVersion}",
+            dexmaker            : "com.google.dexmaker:dexmaker:${dexmakerVersion}",
+            dexmakerMockito     : "com.google.dexmaker:dexmaker-mockito:${dexmakerVersion}",
+            espresso            : "com.android.support.test.espresso:espresso-core:${espressoVersion}",
+            testingSupportLib   : "com.android.support.test:testing-support-lib:${testingSupportLibVersion}",
+            jUnitVersion        : "junit:junit:${jUnitVersion}",
+            leakcanary          : "com.squareup.leakcanary:leakcanary-android:${leakcanaryVersion}",
+            blockCanaryExJRT    : "com.letv.sarrsdesktop:BlockCanaryExJRT:${blockCanaryExVersion}",
+            blockCanaryExJRTNoOp: "com.letv.sarrsdesktop:BlockCanaryExJRTNoOp:${blockCanaryExVersion}"
+    ]
+    utilsDependencies = [
+            rxJava        : "io.reactivex:rxjava:${rxJavaVersion}",
+            rxAndroid     : "io.reactivex:rxandroid:${rxAndroidVersion}",
+            appcompat     : "com.android.support:appcompat-v7:${appcompat}",
+            fresco        : "com.facebook.fresco:fresco:${fresco}",
+            frescoDrawee  : "com.facebook.fresco:drawee:${fresco}",
+            frescoOkhttp  : "com.facebook.fresco:imagepipeline-okhttp3:${fresco}",
+            frescoAnimated: "com.facebook.fresco:animated-gif:${fresco}",
+            okHttp        : "com.squareup.okhttp3:okhttp:${okHttpVersion}",
+    ]
+    viewsDependencies = [
+            butterKnife : "com.jakewharton:butterknife:${butterKnifeVersion}",
+            rxJava      : "io.reactivex:rxjava:${rxJavaVersion}",
+            rxAndroid   : "io.reactivex:rxandroid:${rxAndroidVersion}",
+            recyclerView: "com.android.support:recyclerview-v7:${recyclerViewVersion}",
+            design      : "com.android.support:design:${designVersion}",
+            appcompat   : "com.android.support:appcompat-v7:${appcompat}",
+            autolayout  : "com.zhy:autolayout:${autolayoutVersion}"
+    ]
+
+    domainDependencies = [
+            daggerCompiler : "com.google.dagger:dagger-compiler:${daggerVersion}",
+            dagger         : "com.google.dagger:dagger:${daggerVersion}",
+            javaxAnnotation: "javax.annotation:jsr250-api:${javaxAnnotationVersion}",
+            rxJava         : "io.reactivex:rxjava:${rxJavaVersion}",
+            rxAndroid      : "io.reactivex:rxandroid:${rxAndroidVersion}",
+            retrofit2      : "com.squareup.retrofit2:retrofit:${retrofit2Version}",
+            okHttp         : "com.squareup.okhttp3:okhttp:${okHttpVersion}",
+    ]
+
+    domainTestDependencies = [
+            junit  : "junit:junit:${jUnitVersion}",
+            mockito: "org.mockito:mockito-core:${mockitoVersion}",
+    ]
+
+    dataDependencies = [
+            eventbus          : "org.greenrobot:eventbus:${eventbusVersion}",
+            daggerCompiler    : "com.google.dagger:dagger-compiler:${daggerVersion}",
+            dagger            : "com.google.dagger:dagger:${daggerVersion}",
+            okHttp            : "com.squareup.okhttp3:okhttp:${okHttpVersion}",
+            loggingInterceptor: "com.squareup.okhttp3:logging-interceptor:${okHttpVersion}",
+            rxJava            : "io.reactivex:rxjava:${rxJavaVersion}",
+            rxAndroid         : "io.reactivex:rxandroid:${rxAndroidVersion}",
+            gson              : "com.google.code.gson:gson:${gsonVersion}",
+            javaxAnnotation   : "javax.annotation:jsr250-api:${javaxAnnotationVersion}",
+            retrofit2         : "com.squareup.retrofit2:retrofit:${retrofit2Version}",
+            retrofitGson      : "com.squareup.retrofit2:converter-gson:${retrofitGsonVersion}",
+            retrofitAdapter   : "com.squareup.retrofit2:adapter-rxjava:${retrofitAdapterVersion}",
+            androidAnnotations: "com.android.support:support-annotations:${androidAnnotationsVersion}",
+            reservoir         : "com.anupcowkur:reservoir:${reservoirVersion}",
+            websocket         : "com.neovisionaries:nv-websocket-client:${websocketVersion}",
+            msgpack           : "org.msgpack:msgpack:${msgpackVersion}",
+    ]
+
+    dataTestDependencies = [
+            junit      : "junit:junit:${jUnitVersion}",
+            assertj    : "org.assertj:assertj-core:${assertJVersion}",
+            mockito    : "org.mockito:mockito-core:${mockitoVersion}",
+            robolectric: "org.robolectric:robolectric:${robolectricVersion}",
+    ]
+
+    reactDependencies = [
+
+            javaXInject        : "javax.inject:javax.inject:${javaxInject}",
+            reactAppCompat     : "com.android.support:appcompat-v7:${appcompatVersion}",
+            reactRecycle       : "com.android.support:recyclerview-v7:${reactRecycleViewVersion}",
+            textLayout         : "com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:${textLayoutVersion}",
+            fresco             : "com.facebook.fresco:fresco:${reactFresco}",
+            frescoOkhttp3      : "com.facebook.fresco:imagepipeline-okhttp3:${frescoOkhttp3Version}",
+            soLoader           : "com.facebook.soloader:soloader:${soLoaderVersion}",
+            okHttp             : "com.squareup.okhttp3:okhttp:${okHttpVersion}",
+            okHttpUrlConnection: "com.squareup.okhttp3:okhttp-urlconnection:${okHttpVersion}",
+            okHttpWs           : "com.squareup.okhttp3:okhttp-ws:${okHttpVersion}",
+            okHttpIo           : "com.squareup.okio:okio:${okHttpIoVersion}",
+            findBugs           : "com.google.code.findbugs:jsr305:${findBugsVersion}"
+    ]
+
+    streamingDependencies = [
+            qiniuReport: "com.qiniu.pili:pili-android-qos:${qiniuReportVersion}",
+    ]
+
+    //大多数lib通用
+    commonDependencies = [
+            appcompat: "com.android.support:appcompat-v7:${appcompat}",
+            support  : "com.android.support:support-v4:${support}"
+    ]
+    commonTestDependencies = [
+            jUnitVersion: "junit:junit:${jUnitVersion}",
+    ]
+
+    //            jsc                 : "org.webkit:android-jsc:r174650",
+}
