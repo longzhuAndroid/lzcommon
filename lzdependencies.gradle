@@ -6,16 +6,16 @@ allprojects {
 
 ext {
     //Libraries
-    core = "1.1.5-SNAPSHOT"
-    PtrLayout = "1.0.8-SNAPSHOT"
-    contract = "1.1.2-SNAPSHOT"
-    utils = "1.0.8-SNAPSHOT"
-    imageload = "1.0.9-SNAPSHOT"
-    customtablayout = "1.0.4-SNAPSHOT"
-    andjump = "1.0.5-SNAPSHOT"
-    andjumpcompiler = "1.0.5-SNAPSHOT"
-    router = "1.0.1-SNAPSHOT"
-    views = "1.0.5-SNAPSHOT"
+    core = "1.1.6"
+    PtrLayout = "1.0.8"
+    contract = "1.1.2"
+    utils = "1.0.8"
+    imageload = "1.0.11"
+    customtablayout = "1.0.4"
+    andjump = "1.0.5"
+    andjumpcompiler = "1.0.5"
+    router = "1.0.1"
+    views = "1.0.5"
     lzSdkDependencies = [
             core           : "com.longzhu.sdk:core:${core}",
             PtrLayout      : "com.longzhu.sdk:PtrLayout:${PtrLayout}",
