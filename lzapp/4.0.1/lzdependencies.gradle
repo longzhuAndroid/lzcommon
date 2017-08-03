@@ -16,7 +16,7 @@ ext {
     andjumpcompiler = "1.0.5"
     router = "1.0.1"
     views = "1.0.5"
-    share="1.0.1-SNAPSHOT"
+    share="1.0.1"
     //播放器相关
     chatservice="1.0.0"
     playproxy="1.0.4.4-SNAPSHOT"
