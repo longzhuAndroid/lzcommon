@@ -16,7 +16,7 @@ ext {
     andjumpcompiler = "1.0.5"
     router = "1.0.1"
     views = "1.0.5"
-
+    share="1.0.1-SNAPSHOT"
     //播放器相关
     chatservice="1.0.0"
     playproxy="1.0.4.4-SNAPSHOT"
@@ -36,6 +36,8 @@ ext {
             andjumpcompiler: "com.longzhu.sdk:andjumpcompiler:${andjumpcompiler}",
             router         : "com.longzhu.sdk:router:${router}",
             views          : "com.longzhu.sdk:views:${views}",
+            share          : "com.longzhu.sdk:share:${share}",
+
             //消息通道
             chatservice:  "com.longzhu.sdk:chatservice:${chatservice}",
             //播放器相关依赖
