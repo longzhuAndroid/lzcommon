@@ -38,6 +38,7 @@ ext {
             router         : "com.longzhu.sdk:router:${router}",
             views          : "com.longzhu.sdk:views:${views}",
             share          : "com.longzhu.sdk:share:${share}",
+            geetest        : "com.longzhu.sdk:geetest:${geetest}",
 
             //消息通道
             chatservice:  "com.longzhu.sdk:chatservice:${chatservice}",
