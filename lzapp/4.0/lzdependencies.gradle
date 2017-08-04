@@ -21,7 +21,7 @@ ext {
     chatservice="1.0.0"
     playproxy="1.0.4.4-SNAPSHOT"
     playproxy_self="1.0.4.3-SNAPSHOT"
-    playproxy_qn="1.0.4-SNAPSHOT"
+    playproxy_qn="1.0.5-SNAPSHOT"
     playproxy_tvk="1.0.4.3-SNAPSHOT"
 
     //
