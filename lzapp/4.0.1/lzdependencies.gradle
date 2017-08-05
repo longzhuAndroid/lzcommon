@@ -18,8 +18,9 @@ ext {
     views = "1.0.5"
     share="1.0.4"
     geetest="1.0.2"
-    //播放器相关
     chatservice="1.0.0"
+    mediagesture="1.0.2-SNAPSHOT"
+    //播放器相关
     playproxy="1.0.4.5-SNAPSHOT"
     playproxy_self="1.0.4.3-SNAPSHOT"
     playproxy_qn="1.0.4-SNAPSHOT"
@@ -39,6 +40,7 @@ ext {
             views          : "com.longzhu.sdk:views:${views}",
             share          : "com.longzhu.sdk:share:${share}",
             geetest        : "com.longzhu.sdk:geetest:${geetest}",
+            mediagesture   : "com.longzhu.sdk:mediagesture:${mediagesture}",
 
             //消息通道
             chatservice:  "com.longzhu.sdk:chatservice:${chatservice}",
