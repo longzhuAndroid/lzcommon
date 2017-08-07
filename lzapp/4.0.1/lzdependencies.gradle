@@ -6,9 +6,9 @@ allprojects {
 
 ext {
     //Libraries
-    core = "1.1.11-SNAPSHOT"
+    core = "1.1.12"
     PtrLayout = "1.0.8"
-    contract = "1.1.4-SNAPSHOT"
+    contract = "1.1.6-SNAPSHOT"
     utils = "1.0.8"
     imageload = "1.0.11"
     customtablayout = "1.0.5"
@@ -18,8 +18,11 @@ ext {
     views = "1.0.5"
     share="1.0.5-SNAPSHOT"
     //播放器相关
+    geetest="1.0.2"
     chatservice="1.0.0"
-    playproxy="1.0.4.4-SNAPSHOT"
+    mediagesture="1.0.2-SNAPSHOT"
+    //播放器相关
+    playproxy="1.0.4.5-SNAPSHOT"
     playproxy_self="1.0.4.3-SNAPSHOT"
     playproxy_qn="1.0.4-SNAPSHOT"
     playproxy_tvk="1.0.4.3-SNAPSHOT"
@@ -37,6 +40,8 @@ ext {
             router         : "com.longzhu.sdk:router:${router}",
             views          : "com.longzhu.sdk:views:${views}",
             share          : "com.longzhu.sdk:share:${share}",
+            geetest        : "com.longzhu.sdk:geetest:${geetest}",
+            mediagesture   : "com.longzhu.sdk:mediagesture:${mediagesture}",
 
             //消息通道
             chatservice:  "com.longzhu.sdk:chatservice:${chatservice}",
