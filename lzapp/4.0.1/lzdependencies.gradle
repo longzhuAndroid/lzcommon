@@ -13,7 +13,7 @@ ext {
     imageload = "1.0.11"
     customtablayout = "1.0.5"
     andjump = "1.0.5"
-    andjumpcompiler = "1.0.5"
+    andjumpcompiler = "1.0.6-SNAPSHOT"
     router = "1.0.1"
     views = "1.0.5"
     share="1.0.5-SNAPSHOT"
