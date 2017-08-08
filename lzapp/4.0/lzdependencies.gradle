@@ -11,7 +11,7 @@ ext {
     contract = "1.1.3-SNAPSHOT"
     utils = "1.0.8"
     imageload = "1.0.11"
-    customtablayout = "1.0.5"
+    customtablayout = "1.0.7"
     andjump = "1.0.5"
     andjumpcompiler = "1.0.5"
     router = "1.0.1"
