@@ -16,7 +16,7 @@ ext {
     andjumpcompiler = "1.0.6-SNAPSHOT"
     router = "1.0.1"
     views = "1.0.5"
-    share="1.1.5-SNAPSHOT"
+    share="1.0.5"
     //播放器相关
     geetest="1.0.2"
     chatservice="1.0.0"
