@@ -18,7 +18,7 @@ ext {
     views = "1.0.5"
     share="1.0.5"
     //播放器相关
-    geetest="1.0.2"
+    geetest="1.0.3-SNAPSHOT"
     chatservice="1.0.0"
     mediagesture="1.0.2-SNAPSHOT"
     //播放器相关
