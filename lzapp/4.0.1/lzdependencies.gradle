@@ -8,7 +8,7 @@ ext {
     //Libraries
     core = "1.1.12"
     PtrLayout = "1.0.8"
-    contract = "1.1.8"
+    contract = "1.1.10"
     utils = "1.0.8"
     imageload = "1.0.11"
     customtablayout = "1.0.7"
@@ -19,7 +19,7 @@ ext {
     share="1.1.0"
     //播放器相关
     geetest="1.0.3-SNAPSHOT"
-    chatservice="1.0.0"
+    chatservice="1.0.1"
     mediagesture="1.0.2-SNAPSHOT"
     //播放器相关
     playproxy="1.0.4.5-SNAPSHOT"
