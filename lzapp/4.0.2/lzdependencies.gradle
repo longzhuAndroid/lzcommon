@@ -1,0 +1,54 @@
+allprojects {
+    repositories {
+        jcenter()
+    }
+}
+
+ext {
+    //Libraries
+    core = "1.1.12"
+    PtrLayout = "1.0.8"
+    contract = "1.1.10"
+    utils = "1.0.8"
+    imageload = "1.0.11"
+    customtablayout = "1.0.7"
+    andjump = "1.0.5"
+    andjumpcompiler = "1.0.6-SNAPSHOT"
+    router = "1.0.1"
+    views = "1.0.5"
+    share="1.1.1"
+    //播放器相关
+    geetest="1.0.3-SNAPSHOT"
+    chatservice="1.0.1"
+    mediagesture="1.0.2-SNAPSHOT"
+    //播放器相关
+    playproxy="1.0.4.5-SNAPSHOT"
+    playproxy_self="1.0.4.3-SNAPSHOT"
+    playproxy_qn="1.0.4-SNAPSHOT"
+    playproxy_tvk="1.0.4.3-SNAPSHOT"
+
+    //
+    lzSdkDependencies = [
+            core           : "com.longzhu.sdk:core:${core}",
+            PtrLayout      : "com.longzhu.sdk:PtrLayout:${PtrLayout}",
+            contract       : "com.longzhu.sdk:contract:${contract}",
+            utils          : "com.longzhu.sdk:utils:${utils}",
+            imageload      : "com.longzhu.sdk:imageload:${imageload}",
+            customtablayout: "com.longzhu.sdk:customtablayout:${customtablayout}",
+            andjump        : "com.longzhu.sdk:andjump:${andjump}",
+            andjumpcompiler: "com.longzhu.sdk:andjumpcompiler:${andjumpcompiler}",
+            router         : "com.longzhu.sdk:router:${router}",
+            views          : "com.longzhu.sdk:views:${views}",
+            share          : "com.longzhu.sdk:share:${share}",
+            geetest        : "com.longzhu.sdk:geetest:${geetest}",
+            mediagesture   : "com.longzhu.sdk:mediagesture:${mediagesture}",
+
+            //消息通道
+            chatservice:  "com.longzhu.sdk:chatservice:${chatservice}",
+            //播放器相关依赖
+            playproxy:"com.longzhu.sdk:playproxy:${playproxy}",
+            playproxy_self:"com.longzhu.sdk:playproxy-self:${playproxy_self}",
+            playproxy_qn: "com.longzhu.sdk:playproxy-qn:${playproxy_qn}",
+            playproxy_tvk: "com.longzhu.sdk:playproxy-tvk:${playproxy_tvk}",
+    ]
+}
