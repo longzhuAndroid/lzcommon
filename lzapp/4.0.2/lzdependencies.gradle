@@ -13,10 +13,10 @@ ext {
     imageload = "1.0.11"
     customtablayout = "1.0.7"
     andjump = "1.0.5"
-    andjumpcompiler = "1.0.6-SNAPSHOT"
+    andjumpcompiler = "1.0.6"
     router = "1.0.1"
     views = "1.0.5"
-    share="1.1.1"
+    share="1.1.2"
     //播放器相关
     geetest="1.0.3-SNAPSHOT"
     chatservice="1.0.1"
