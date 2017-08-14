@@ -19,7 +19,7 @@ ext {
     share="1.1.2"
     //播放器相关
     geetest="1.0.3-SNAPSHOT"
-    chatservice="1.0.6"
+    chatservice="1.0.7"
     mediagesture="1.0.2-SNAPSHOT"
     //播放器相关
     playproxy="1.0.4.5-SNAPSHOT"
