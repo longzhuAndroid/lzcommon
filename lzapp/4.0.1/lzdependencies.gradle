@@ -17,15 +17,16 @@ ext {
     router = "1.0.1"
     views = "1.0.5"
     share="1.1.3"
+    geetest="1.0.3"
+
     //播放器相关
-    geetest="1.0.3-SNAPSHOT"
     chatservice="1.0.7"
-    mediagesture="1.0.2-SNAPSHOT"
+    mediagesture="1.0.5"
     //播放器相关
-    playproxy="1.0.4.5-SNAPSHOT"
-    playproxy_self="1.0.4.3-SNAPSHOT"
-    playproxy_qn="1.0.4-SNAPSHOT"
-    playproxy_tvk="1.0.4.3-SNAPSHOT"
+    playproxy="1.0.4.6"
+    playproxy_self="1.0.4.3"
+    playproxy_qn="1.0.5"
+    playproxy_tvk="1.0.4.3"
 
     //
     lzSdkDependencies = [
