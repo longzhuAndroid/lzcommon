@@ -8,7 +8,7 @@ ext {
     //Libraries
     core = "1.1.13"
     PtrLayout = "1.0.8"
-    contract = "1.1.11"
+    contract = "1.1.12"
     utils = "1.0.8"
     imageload = "1.0.12"
     customtablayout = "1.0.7"
