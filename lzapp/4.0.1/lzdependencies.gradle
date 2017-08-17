@@ -23,7 +23,7 @@ ext {
     chatservice="1.0.7"
     mediagesture="1.0.5"
     //播放器相关
-    playproxy="1.0.4.6"
+    playproxy="1.0.5"
     playproxy_self="1.0.4.3"
     playproxy_qn="1.0.5"
     playproxy_tvk="1.0.4.3"
