@@ -24,9 +24,9 @@ ext {
     mediagesture="1.0.5"
     //播放器相关
     playproxy="1.0.5"
-    playproxy_self="1.0.4.3"
+    playproxy_self="1.0.5"
     playproxy_qn="1.0.5"
-    playproxy_tvk="1.0.4.3"
+    playproxy_tvk="1.0.5"
 
     //
     lzSdkDependencies = [
