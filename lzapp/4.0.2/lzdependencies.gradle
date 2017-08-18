@@ -20,7 +20,7 @@ ext {
     geetest="1.0.4"
 
     //播放器相关
-    chatservice="1.0.8"
+    chatservice="1.0.9"
     mediagesture="1.0.5"
     //播放器相关
     playproxy="1.0.4.6"
