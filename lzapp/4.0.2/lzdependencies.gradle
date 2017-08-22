@@ -15,7 +15,7 @@ ext {
     andjump = "1.0.5"
     andjumpcompiler = "1.0.6"
     router = "1.0.1"
-    views = "1.0.6"
+    views = "1.0.7"
     share="1.1.4"
     geetest="1.0.7"
 
