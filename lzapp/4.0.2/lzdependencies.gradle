@@ -17,7 +17,7 @@ ext {
     router = "1.0.1"
     views = "1.0.7"
     share="1.1.4"
-    geetest="1.0.7"
+    geetest="1.0.8"
 
     //播放器相关
     chatservice="1.0.9"
