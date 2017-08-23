@@ -17,10 +17,10 @@ ext {
     router = "1.0.1"
     views = "1.0.5"
     share="1.1.4"
-    geetest="1.0.3"
+    geetest="1.0.4"
 
     //播放器相关
-    chatservice="1.0.8"
+    chatservice="1.0.9"
     mediagesture="1.0.5"
     //播放器相关
     playproxy="1.0.5"
